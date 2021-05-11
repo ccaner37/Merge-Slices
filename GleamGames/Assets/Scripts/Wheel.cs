@@ -19,6 +19,6 @@ public class Wheel : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(0, 0, 35 * Time.deltaTime);
+        transform.Rotate(0, 0, 40 * Time.deltaTime);
     }
 }

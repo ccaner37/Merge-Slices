@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Point : MonoBehaviour
 {
-	public int PartPoint { get; private set; }
+	public int PartPoint; 
 	public void SetPoint(int x) { PartPoint = x; }
 
 	public int Number { get; private set; }
